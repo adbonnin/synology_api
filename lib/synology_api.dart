@@ -1,8 +1,7 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
 library;
 
-export 'src/synology_api_base.dart';
+import 'dart:convert';
 
-// TODO: Export any libraries intended for clients of this package.
+import 'package:http/http.dart' as http;
+
+part 'src/api_client.dart';
